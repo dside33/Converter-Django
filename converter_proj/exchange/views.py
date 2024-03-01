@@ -1,6 +1,5 @@
 from django.shortcuts import render
 import requests
-from rest_framework import status
 
 from exchange.forms import ExchangeForm
 
