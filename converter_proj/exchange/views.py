@@ -16,7 +16,7 @@ def exchange(request):
             'form': form
         }
 
-        print(data)
+        # print(data)
         return render(request, 'exchange/index.html', context=context)
 
     if request.method == 'POST':
